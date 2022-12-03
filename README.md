@@ -58,7 +58,7 @@ If you find a new feature, that you believe would make this project better, kind
 - First, fork the repo to your personal github account
 - Then, clone the forked repo on your local machine/computer
 - Create a feature branch where you make/implement the new, wonderful feature (`git checkout -b feature/AmazingFeature`)
-- Commit and Push your changes to your feature branch (`git commit -m 'Add some AmazingFeature'`) (`git push orign feature/AmazingFeature`)
+- Commit and Push your changes to your feature branch (`git commit -m 'Add some AmazingFeature'`) (`git push origin feature/AmazingFeature`)
 - Make a PR with a proper description about the new feature, you could attach images for better understanding
 
 <!-- LICENSE -->
