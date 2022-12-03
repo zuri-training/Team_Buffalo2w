@@ -23,11 +23,9 @@ The design of this project was done using Figma and built with HTML, CSS and Jav
 
 ## Documentation
 
-Here's a link to the project documentation. The project documentation gives an idea on how to make use of the platform to break down those large files into smaller chunks.
+Here's a link to the [project documentation](https://www.figma.com/file/xmL1cEJbX40djUY5fj4szu/Team-buffalow-team-library?t=yplItsNFlhdyyRPB-6). The project documentation gives an idea on how to make use of the platform to break down those large files into smaller chunks.
 
 This documentation also includes the wireframe and moodboard for the project.
-
-https://www.figma.com/file/xmL1cEJbX40djUY5fj4szu/Team-buffalow-team-library?t=yplItsNFlhdyyRPB-6
 
 <!-- FEATURES -->
 
