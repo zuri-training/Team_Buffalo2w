@@ -17,7 +17,17 @@
 
 Chunk File is a web platform that accepts CSV or JSON files of large sizes, and then breaks them down into smaller chunks or bits. Chunk file also maintains the right format to match the uploaded file format.
 
-This project is built with HTML, CSS and JavaScript(ES6+).
+The design of this project was done using Figma and built with HTML, CSS and JavaScript(ES6+).
+
+<!-- DOCUMENTATION -->
+
+## Documentation
+
+Here's a link to the project documentation. The project documentation gives an idea on how to make use of the platform to break down those large files into smaller chunks.
+
+This documentation also includes the wireframe and moodboard for the project.
+
+https://www.figma.com/file/xmL1cEJbX40djUY5fj4szu/Team-buffalow-team-library?t=yplItsNFlhdyyRPB-6
 
 <!-- FEATURES -->
 
