@@ -94,8 +94,9 @@ h4 a{
 
 .split-options{
     width: 30%;
-    height: 50vh;
+    height: 70%;
     line-height: 25px;
+    font-size: 1rem;
     background-color: #FFFBCC;
     color: #1C4999;
     font-style: italic;
