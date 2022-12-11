@@ -12,6 +12,8 @@ header {
 
 #logo-container{
     width: max-content;
+    display: flex;
+    align-items: center;
 }
 
 .logo-div{
@@ -96,7 +98,7 @@ header {
     background-color: #fff;
     position: fixed;
     top: 0;
-    left: -500px;
+    left: -980px;
     z-index: 9;
 
     display: flex;
@@ -121,9 +123,9 @@ header li {
 }
 
 header li a {
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
-    color: rgba(51, 51, 51, 1);
+    color: #263EBD;
 
     transition: all ease 0.4s
 }
@@ -132,9 +134,39 @@ header li a:hover {
     border-bottom: 3px solid rgba(51, 51, 51, 1);
 }
 
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-btn > a{
+    width: 9rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.4rem;
+    border: 2px solid #194993;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-login{
+    background-color: #fff;
+}
+
+.btn-signup{
+    background-color: #194993;
+    color: #FFEB00;
+}
+
 /* End of Responsive Menu Styling */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 960px){
+    header{
+        padding: 2.5rem 5rem;
+    }
+
     header nav{
         width: 100%;
         display: flex;
@@ -152,10 +184,7 @@ header li a:hover {
 
     .mobile-nav ul {
         display: flex;
-    }
-
-    header li {
-        padding: 0;
-        padding-left: 20px;
+        justify-content: space-around;
+        gap: 3rem;
     }
 }
