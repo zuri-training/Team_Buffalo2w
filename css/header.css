@@ -1,0 +1,190 @@
+header {
+    margin: auto;
+    padding: 25px 12px;
+    background-color: #D5DBF9;
+    box-shadow: 5px 5px 30px #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+#logo-container{
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.logo-div{
+    padding: 1rem 1.8rem;
+    background: linear-gradient(98.5deg, #122BB2 37.12%, rgba(20, 70, 144, 0.98) 87.76%);
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: #fff;
+}
+
+.logo-div span{
+    width: min-content;
+    text-align: center;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+/* Responsive Hamburger Menu */
+.hamburger {
+    display: block;
+    height: 35px;
+    width: 35px;
+    padding: 0;
+
+    appearance: none;
+    outline: none;
+    background: none;
+    border: none;
+
+    z-index: 10;
+}
+
+.menu-bar,
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    background: rgba(51, 51, 51, 1);
+    transition: all 0.4s ease;
+}
+
+.menu-bar.is-active {
+    opacity: 0;
+}
+
+.hamburger.is-active::before {
+    transform: rotate(45deg) translate(11px);
+}
+
+.hamburger.is-active::after {
+    transform: rotate(-45deg) translate(11px);
+}
+
+/* End of responsive hanmburger menu styling and beginning of header menu styling for mobile*/
+.mobile-nav.is-active {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -980px;
+    z-index: 9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s ease-in-out;
+}
+
+header nav ul {
+    height: 100%;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+header li {
+    padding: 2rem;
+
+    text-align: center;
+}
+
+header li a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #263EBD;
+
+    transition: all ease 0.4s
+}
+
+header li a:hover {
+    border-bottom: 3px solid rgba(51, 51, 51, 1);
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-btn > a{
+    width: 9rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.4rem;
+    border: 2px solid #194993;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-login{
+    background-color: #fff;
+}
+
+.btn-signup{
+    background-color: #194993;
+    color: #FFEB00;
+}
+
+/* End of Responsive Menu Styling */
+
+@media screen and (min-width: 960px){
+    header{
+        padding: 2.5rem 5rem;
+    }
+
+    header nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: contents;
+        flex-direction: row;
+    }
+
+    .mobile-nav ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+}

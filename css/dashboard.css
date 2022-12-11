@@ -1,0 +1,141 @@
+#dashboard-container{
+    padding: 3.5rem 1.5rem;
+    font-size: 1.8rem;
+}
+
+.user-profile{
+    display: flex;
+    min-width: 15rem;
+    gap: 1rem;
+    align-items: center;
+    color: #1C4999;
+}
+
+.user-profile span{
+    display: flex;
+    flex-direction: column;
+}
+
+main > section{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.upload-section{
+    text-align: center;
+}
+
+.split-select-control{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.split-select a,
+.upload-section > a{
+    display: block;
+    background-color: #1C4999;
+    padding: 1.2rem 2.5rem;
+    border-radius: 2rem;
+
+    line-height: 1.4;
+    text-decoration: none;
+    color: #FFEB00;
+}
+
+a span {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.file-upload-control,
+.upload-details-section > div{
+    padding: 2.5rem 1.5rem;
+    background-color: #FFFBCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    height: 30rem;
+    
+    text-align: center;
+    color: #1C4999;
+}
+
+.file-upload{
+    width: 100%;
+}
+
+.file-upload input{
+    width: -webkit-fill-available;
+    background-color: #1C4999;
+    padding: 1.2rem 2.5rem;
+    border-radius: 2rem;
+    color: #FFEB00;
+}
+
+section > a{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.upload-details-section{
+    padding: 3rem 1.2rem;
+}
+
+.upload-details-section > div{
+    height: fit-content;
+    max-width: 50rem;
+}
+
+.upload-details-section h3{
+    text-align: right;
+}
+
+.upload-details-section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.upload-details-section ul > li{
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media screen and (min-width: 840px){
+    #dashboard-container{
+        max-width: 102.4rem;
+        margin: auto;
+        padding: 10rem
+    }
+
+    .upload-section{
+        flex-flow: row wrap;
+        gap: 1.5rem;
+    }
+
+    .split-select-control{
+        width: 48%;
+    }
+
+    .file-upload-control{
+        width: 48%;
+    }
+
+    .upload-section > a{
+        display: block;
+        width: 40rem;
+        margin: 3rem auto;
+    }
+
+    .upload-details-section{
+        align-items: flex-end;
+    }
+}
