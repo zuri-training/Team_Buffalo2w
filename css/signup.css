@@ -8,7 +8,7 @@
     margin: auto;
     margin-bottom: 7.5rem;
     padding: 4.5rem 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .top-section {
@@ -17,8 +17,14 @@
 }
 
 .parent-container h1 {
-    font-size: 3.2rem;
-    color: #101828;
+    font-size: 4.2rem;
+    color: #1F3297;
+}
+
+.top-section p{
+    margin: 0;
+    font-weight: 600;
+    color: #363B3F;
 }
 
 .form-control {
@@ -27,6 +33,19 @@
 
 small {
     color: #475467;
+}
+
+small a{
+    text-decoration: none;
+}
+
+small a:hover{
+    text-decoration: underline;
+}
+
+button + small a{
+    font-weight: 600;
+    color: #263FBD;
 }
 
 .form-control-check div {
@@ -41,7 +60,7 @@ label {
     display: block;
     margin-bottom: 0.7rem;
 
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #344054;
 }
@@ -55,7 +74,7 @@ input {
     display: block;
     width: -webkit-fill-available;
     width: -moz-available;
-    padding: 1.2rem 1.4rem;
+    padding: 1.8rem 1.4rem;
     border: 0.1rem solid #A4A4A4;
     border-radius: 0.5rem;
 
@@ -129,7 +148,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    gap: 2rem;
+    gap: 3.5rem;
 }
 
 .divider{
@@ -141,13 +160,18 @@ textarea {
 .btn-signup-option{
     display: block;
     width: 100%;
-    padding: 2.2rem;
+    padding: 1.5rem;
     border: 1px solid rgba(126, 125, 125, 0.7);
     border-radius: 0.5rem;
 
     text-align: center;
     text-decoration: none;
     color: #363B3F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 
@@ -161,11 +185,12 @@ textarea {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        gap: 1.2rem;
     }
 
     .form-control:first-child,
     .form-control:nth-child(2) {
-        width: 49%;
+        width: 48%;
     }
 
     .form-control {
@@ -193,5 +218,6 @@ textarea {
 
     .alt-login{
         padding: 0;
+        align-self: flex-start;
     }
 }
