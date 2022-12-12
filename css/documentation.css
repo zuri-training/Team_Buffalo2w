@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+.documentation-content{
+    padding: 2rem;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.doc-col-4{
+    width: 33.3%;
+    text-align: center;
+}
+
+.doc-col-content{
+   margin: 2rem;
+   padding: 1rem;
+   border-radius: 5px;
+   background-color: rgba(255, 251, 204, 1);
+   box-shadow: ;
+   vertical-align: middle;
+}
+
+.doc-col-content h6{
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+
+
+.doc-col-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 13rem;
+}
+
+.doc-col-content p span{
+    margin-left: 1rem
+}
+
+.doc-col-content p{
+    padding: 1rem 0rem
+}
+
+hr{
+    margin: 0.3rem 0rem;
+}
