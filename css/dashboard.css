@@ -3,6 +3,7 @@
     font-size: 1.8rem;
 }
 
+
 .user-profile{
     display: flex;
     min-width: 15rem;
@@ -23,17 +24,19 @@ main > section{
 }
 
 .upload-section{
+    position: relative;
     text-align: center;
+    padding-bottom: 4rem;
 }
 
-.split-select-control{
-    display: flex;
-    padding: 1.5rem;
-    flex-direction: column;
-    gap: 2rem;
+.upload-section svg{
+    display: block;
+    width: 100vw;
+    position: absolute;
+    left: -1.5rem;
+    bottom: 0;
 }
 
-.split-select a,
 .upload-section > a{
     display: block;
     background-color: #1C4999;
@@ -52,7 +55,7 @@ a span {
 }
 
 .file-upload-control,
-.upload-details-section > div{
+.recent-splits-container{
     padding: 2.5rem 1.5rem;
     background-color: #FFFBCC;
     display: flex;
@@ -66,28 +69,85 @@ a span {
     color: #1C4999;
 }
 
+.file-upload-control{
+    max-width: 64rem;
+    padding: 0 4rem;
+    margin: auto;
+    z-index: 1;
+}
+
+.file-upload-control p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .file-upload{
     width: 100%;
 }
 
 .file-upload input{
-    width: -webkit-fill-available;
+    width: 100%;
     background-color: #1C4999;
     padding: 1.2rem 2.5rem;
     border-radius: 2rem;
     color: #FFEB00;
 }
 
-section > a{
-    font-size: 3rem;
-    font-weight: 700;
+.split-options-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 5rem 0;
+
+    text-align: center;
+}
+
+.split-options-container h2{
+    margin: 0.5rem;
+    font-size: 3.5rem;
+    color: #1C4999
+}
+
+.split-options-container p{
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.option input{
+    width: 4rem;
+    height: 2.5rem;
 }
 
 .upload-details-section{
+    position: relative;
     padding: 3rem 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
 }
 
-.upload-details-section > div{
+.section-bg{
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+}
+
+.split-flow-img{
+    display: none;
+}
+
+.recent-splits-container{
     height: fit-content;
     max-width: 50rem;
 }
@@ -109,33 +169,41 @@ section > a{
     font-style: italic;
 }
 
+@media screen and (min-width: 768px){
+    .upload-details-section {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .split-flow-img {
+        display: block;
+        width: 35rem;
+    }
+}
+
 @media screen and (min-width: 840px){
     #dashboard-container{
-        max-width: 102.4rem;
         margin: auto;
-        padding: 10rem
-    }
-
-    .upload-section{
-        flex-flow: row wrap;
-        gap: 1.5rem;
-    }
-
-    .split-select-control{
-        width: 48%;
-    }
-
-    .file-upload-control{
-        width: 48%;
-    }
-
-    .upload-section > a{
-        display: block;
-        width: 40rem;
-        margin: 3rem auto;
     }
 
     .upload-details-section{
-        align-items: flex-end;
+        min-height: 75rem;
+        gap: 20rem;
     }
+
+    .upload-section{
+        min-height: 58vh;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .file-upload-control {
+        max-width: 76.8rem;
+        height: 40rem;
+    }
+
+    .file-upload-control p {
+        font-size: 3.8rem;
+    }
+
 }

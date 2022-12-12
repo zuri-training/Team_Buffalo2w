@@ -57,21 +57,7 @@
 
     <main id="dashboard-container">
         <section class="upload-section">
-            <div class="split-select-control">
-                <div class="split-select">
-                    <a href="#">
-                        <span>Split from</span>
-                        Select the file format you want (CSV & JSON)
-                    </a>
-                </div>
-
-                <div class="split-select">
-                    <a href="#">
-                        <span>Split to</span>
-                        Select the file format you want (CSV & JSON)
-                    </a>
-                </div>
-            </div>
+            <img class="section-bg" src="../assets/img/section-bg0.png">
 
             <div class="file-upload-control">
                 <div class="file-upload">
@@ -79,21 +65,48 @@
                 </div>
 
                 <p>
-                    Drag and drop a
-                    CSV or JSON file into
-                    the file selection area above,
-                    or click to choose a file
-                    from your local computer.
+                    Drag and drop a CSV or JSON file into
+                    the file selection area above, or click to choose a file from your local computer.
+
                 </p>
             </div>
+        </section>
 
-            <a href="#">
-                Split Now
-            </a>
+        <section class="split-options-section">
+            <div class="split-options-container">
+                <h2>Split options</h2>
+                <p>Select how to split your CSV or JSON file</p>
+
+                <div class="option">
+                    <label for="lines-per-split">
+                        Number of lines per split file
+                    </label>
+                    <input id="lines-per-split" type="number" name="lines-per-split">
+                </div>
+
+                <div class="option">
+                    <label for="size-per-split">
+                        Size of split file
+                    </label>
+                    <input id="size-per-split" type="number" name="size-per-split">
+                </div>
+
+                <div class="option">
+                    <label for="header-rows-per-split">
+                        Number of header rows to copy into each split file
+                    </label>
+                    <input id="header-rows-per-split" type="number" name="header-rows-per-split">
+                </div>
+            </div>
         </section>
 
         <section class="upload-details-section">
-            <div>
+            <img class="section-bg" src="../assets/img/section-bg.png">
+
+            <img class="split-flow-img" src="../assets/img/slider-scheme-2-removebg-preview 1.png"
+                alt="placeholder-img">
+
+            <div class="recent-splits-container">
                 <h3>Recent file splits</h3>
 
                 <ul>
@@ -180,7 +193,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
 </body>
 
 </html>
