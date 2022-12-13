@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #d5dbf9;
+    background-color: #6779DD;
     font-family: 'Lato', sans-serif;
 }
 
@@ -24,13 +24,13 @@ body{
 }
 
 #boxed-container2{
-    background-color: #5169e8;
+    background-color: #6779DD;
     opacity: 0.8;
     height: 40vh;
     width: 40vh;
     border-radius: 10%;
     position: absolute;
-    top: 20%;
+    top: 10%;
     right: 20%;
     /* z-index: -1; */
     /* transform: rotate(45deg); */
@@ -42,7 +42,7 @@ body{
     width: 40vh;
     border-radius: 20px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     right: 10%;
     /* z-index: -1;*/
     transform: rotate(45deg);
@@ -59,7 +59,7 @@ body{
 
 #boxed-container1{
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
 }
 
@@ -69,7 +69,7 @@ body{
 }
 
 #boxed-container1 button{
-    background-color: rgb(255, 255, 255);
+    background-color: #03045E;
     border: 1px solid #d5dbf9;
     width: auto;
     padding: 10px;
@@ -96,8 +96,8 @@ h4 a{
 
 .split-options{
     font-size: 2rem;
-    background-color: #FFFBCC;
-    color: #1C4999;
+    background-color: #03045E;
+    color: #fff;
     font-style: italic;
     text-align: right;
     position: absolute;
@@ -107,10 +107,10 @@ h4 a{
     line-height: 25px;
  }
  
-/* #container2 h5{
+#container2 h5{
     text-align: center;
     margin-top: 10px;
-} */
+}
 
 /* responsiveness*/
 @media only screen and (max-width: 800px) {
