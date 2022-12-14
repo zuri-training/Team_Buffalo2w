@@ -6,30 +6,34 @@
 }
 
 .documentation-content{
-    padding: 2rem;
+    padding: 5rem;
+    width: 100%;
 }
 
 
 .row{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
+    width: 100%;
 }
 
 .doc-col-4{
     width: 33.3%;
     text-align: center;
+    padding: 3rem;
 }
 
 .doc-col-content{
-   margin: 2rem;
-   padding: 1rem;
-   border-radius: 5px;
-   background-color: rgba(255, 251, 204, 1);
-   box-shadow: ;
-   vertical-align: middle;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 251, 204, 1);
+    box-shadow: 18px 18px 12px -8px #00000091;
+    vertical-align: middle;
+    margin-bottom: 5rem;
 }
+
 
 .doc-col-content h6{
     padding: 1rem;
@@ -43,7 +47,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    height: 13rem;
+    height: 14rem;
 }
 
 .doc-col-content p span{
@@ -56,4 +60,16 @@
 
 hr{
     margin: 0.3rem 0rem;
+}
+.background-zero{
+    padding: 0;
+    background: none;
+    margin-bottom: 0;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 945px){
+    .doc-col-4{
+        width: 100% !important;
+    }
 }
