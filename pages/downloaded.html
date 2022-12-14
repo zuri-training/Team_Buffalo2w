@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/signup.css">
-    <link rel="stylesheet" href="../css/signin.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/download.css">
+    <title>Download page</title>
 </head>
 
 <body>
@@ -40,15 +39,14 @@
                     </li>
                 </ul>
 
-                <!-- <div class="header-btn">
-                    <a type="button" class="btn-login">
-                        Log In
-                    </a>
+                <div class="user-profile">
+                    <span>
+                        <strong>John Domelo</strong>
+                        Welcome back
+                    </span>
 
-                    <a type="button" class="btn-signup">
-                        Sign Up
-                    </a>
-                </div> -->
+                    <img src="../assets/img/profile.png" alt="profile">
+                </div>
             </div>
         </nav>
 
@@ -57,51 +55,60 @@
         </button>
     </header>
 
-    <main class="parent-container">
-        <div class="top-section">
-            <h1>Welcome!</h1>
-            <p>Sign In to Buffalo to continue</p>
-        </div>
+    <main>
+        <section class="hero">
+            <div class="hero-img-container">
+                <img class="archive-img" src="../assets/img/Archiving files.png" alt="archive-files">
+            </div>
 
-        <div class="signup-section">
-            <form>
-                <div class="form-control">
-                    <label>Email</label>
-                    <input id="email" name="email" type="email" placeholder="johndoe@email.com">
+            <div class="file-ready-container">
+                <div class="file-ready">
+                    <h1>Your file is ready</h1>
                 </div>
 
-                <div class="form-control">
-                    <label>Password</label>
-                    <input id="password" type="password" name="password" placeholder=".............">
-                    <small><a href="#">Forgot Password?</a></small>
+                <div class="download-box">
+                    <p>Click button below to download</p>
+
+                    <a href="#">
+                        <img src="../assets/img/download.png" alt="download">
+
+                        <span>DOWNLOADED</span>
+
+                        <img src="../assets/img/check.png" alt="dropdown">
+                    </a>
                 </div>
+            </div>
+        </section>
 
-                <button id="btn__submit" class="btn_signin" type="button">Continue</button>
-                <small>Don't have an account yet? <a href="signup.html">Sign up</a></small>
-            </form>
-        </div>
+        <section class="section-bg">
+            <img src="../assets/img/download-section-bg.png" alt="background" class="section-bg">
 
-        <div class="alt-login">
-            <img class="divider" src="../assets/img/signup-divider.png" alt="divider">
 
-            <a href="#" class="btn-signup-option">
-                <img src="../assets/img/icons/Google.png" alt="google">
-                Continue with Google
-            </a>
+        </section>
 
-            <a href="#" class="btn-signup-option">
-                <img src="../assets/img/icons/github.png" alt="github">
-                Continue with Github
-            </a>
+        <section class="upload-details-section">
+            <div class="split-flow-img-container">
+                <img class="split-flow-img" src="../assets/img/slider-scheme-2-removebg-preview 1.png"
+                    alt="placeholder-img">
+            </div>
 
-            <a href="#" class="btn-signup-option">
-                <img src="../assets/img/icons/Microsoft.png" alt="microsoft">
-                Continue with Microsoft
-            </a>
-        </div>
+            <div class="recent-splits-container">
+                <h3>Recent file splits</h3>
+
+                <ul>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                    <li>CSV to Doc (Microsoft Word Document) </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
-    <!-- This is the "Footer" of the site, it is the same across all 4 pages -->
     <footer>
         <section class="quick-links">
             <h3>Company</h3>
@@ -146,8 +153,7 @@
         </section>
 
 
-        <!-- Contact Us section -->
-
+        <!-- Contact details section -->
         <section class="contact-us">
             <h3>Contact Us</h3>
 
@@ -170,8 +176,6 @@
             <p>&copy; 2022 Buffalo Converter</p>
         </div>
     </footer>
-
-    <script type="module" src="../js/signin.js"></script>
 
     <script type="text/javascript" src="../js/main.js"></script>
 </body>
