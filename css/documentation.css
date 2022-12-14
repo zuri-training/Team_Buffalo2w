@@ -1,0 +1,145 @@
+.parent-container {
+    margin: auto;
+    margin-bottom: 7.5rem;
+    padding: 4.5rem 1.5rem;
+    font-size: 2rem;
+
+    font-size: 1.8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+
+    text-align: center;
+}
+
+.parent-container>section {
+    max-width: 96rem;
+    margin: auto;
+}
+
+.banner h1{
+    color: #FFEB00;
+}
+
+.banner img {
+    position: absolute;
+    top: 13rem;
+    left: 0;
+    width: 100vw;
+
+    z-index: -1;
+}
+
+.features-section,
+.feature{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.feature {
+    padding: 0rem 2.5rem;
+    background-color: #172672;
+    border-radius: 2rem;
+    height: 47rem;
+    gap: 0;
+
+    color: #fff;
+    font-size: 2rem;
+}
+
+.feature h3{
+    margin: 0;
+}
+
+.learn-more{
+    border-top: 0.1rem solid #fff;
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.final-section {
+    padding: 5rem 0;
+    font-size: 2.8rem;
+}
+
+@media screen and (min-width: 640px) {
+    .parent-container {
+        gap: 10rem;
+    }
+
+    .banner h1 {
+        margin: -2rem auto;
+        max-width: 60rem;
+        padding: 5rem;
+    }
+
+    .features-section {
+        flex-flow: row wrap;
+    }
+
+    .feature {
+        height: 47rem;
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .parent-container {
+        gap: 15rem;
+    }
+
+    .card {
+        max-width: 33%;
+    }
+    
+
+    .features-section {
+        padding: 4rem;
+    }
+
+    .feature {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .parent-container > section {
+        max-width: 102.4rem;
+    }
+
+    .features-section {
+        padding: 4rem;
+    }
+
+    .feature {
+        width: 31%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .parent-container {
+        gap: 22rem;
+    }
+
+    .parent-container > section {
+        max-width: 128rem;
+    }
+
+    .features-section {
+        padding: 4rem;
+    }
+
+    .feature {
+        height: 38rem;
+        width: 31%;
+    }
+}
