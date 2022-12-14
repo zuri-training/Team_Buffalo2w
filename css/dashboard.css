@@ -54,10 +54,30 @@ a span {
     font-weight: 700;
 }
 
+#btn__submit {
+    display: block;
+    width: 20rem;
+    padding: 1.5rem 2rem;
+    appearance: none;
+    border: none;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #1C4999;
+
+    font-family: 'Jost', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#btn__submit a{
+    color: #FFEB00;
+    text-decoration: none;
+}
+
 .file-upload-control,
 .recent-splits-container{
     padding: 2.5rem 1.5rem;
-    background-color: #FFFBCC;
+    background-color: #03045E;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +86,14 @@ a span {
     height: 30rem;
     
     text-align: center;
-    color: #1C4999;
+    color: #fff;
+}
+
+.recent-splits-container h3 {
+    width: 100%;
+    padding: 0 2rem;
+    text-align: right;
+    color: #FFEB00;
 }
 
 .file-upload-control{
