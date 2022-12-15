@@ -74,8 +74,10 @@
 }
 
 .csv-json-info{
+  margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -87,6 +89,11 @@
 
   color: #fff;
   font-size: 2rem;
+}
+
+.csv-json {
+  padding: 3rem;
+  min-height: 30rem;
 }
 
 .csv-json img{
@@ -151,6 +158,10 @@
   .feature {
     height: 48rem;
     width: 48%;
+  }
+
+  .about-csv-json {
+    padding: 0 4.5rem;
   }
 }
 
