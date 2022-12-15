@@ -2,7 +2,7 @@
 footer {
     margin: 20px 0 0;
     padding: 15px;
-    background-color: #172672;
+    background-color: #03045E;
 
     color: #fff;
 }
@@ -96,11 +96,22 @@ footer i {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: stretch;
     }
 
     footer>section {
         width: 25%;
+    }
+
+    .quick-links{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .footer-nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
     .company-details {

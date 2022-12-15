@@ -1,7 +1,7 @@
 header {
     margin: auto;
     padding: 25px 12px;
-    background-color: #D5DBF9;
+    background-color: #03045E;
     box-shadow: 5px 5px 30px #FFFFFF;
     z-index: 2;
     display: flex;
@@ -60,7 +60,7 @@ header {
     width: 80%;
     margin: auto;
     margin-top: 5px;
-    background: rgba(51, 51, 51, 1);
+    background: #F4E429;
     transition: all 0.4s ease;
 }
 
@@ -80,7 +80,7 @@ header {
 .mobile-nav.is-active {
     min-height: 100vh;
     width: 100%;
-    background-color: #fff;
+    background-color: #03045E;
     position: fixed;
     top: 0;
     left: 0;
@@ -95,7 +95,7 @@ header {
 .mobile-nav {
     min-height: 100vh;
     width: 100%;
-    background-color: #fff;
+    background-color: #03045E;
     position: fixed;
     top: 0;
     left: -980px;
@@ -125,13 +125,13 @@ header li {
 header li a {
     font-weight: 700;
     text-decoration: none;
-    color: #263EBD;
+    color: #CAF0F8;
 
     transition: all ease 0.4s
 }
 
 header li a:hover {
-    border-bottom: 3px solid rgba(51, 51, 51, 1);
+    border-bottom: 3px solid #F4E429;
 }
 
 .header-btn{
@@ -142,13 +142,14 @@ header li a:hover {
 }
 
 .header-btn > a{
-    width: 9rem;
+    width: 10rem;
     padding: 0.5rem 1.2rem;
     border-radius: 1.4rem;
     border: 2px solid #194993;
     
     text-align: center;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .btn-login{
@@ -156,8 +157,8 @@ header li a:hover {
 }
 
 .btn-signup{
-    background-color: #194993;
-    color: #FFEB00;
+    background-color: #F4E429;
+    color: #03045E;
 }
 
 /* End of Responsive Menu Styling */
