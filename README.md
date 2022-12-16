@@ -1,4 +1,8 @@
-# Chunk File
+<h1 align="center">BUFFALO SPLITTER</h1>
+
+<h2 align="center">
+    <a href="https://team-buffalo2w.vercel.app">View Live Site</a>
+</h2>
 
 <!-- <p align="center">
     <a href="#">
@@ -15,17 +19,15 @@
 
 ## Project Description
 
-Chunk File is a web platform that accepts CSV or JSON files of large sizes, and then breaks them down into smaller chunks or bits. Chunk file also maintains the right format to match the uploaded file format.
-
-The design of this project was done using Figma and built with HTML, CSS and JavaScript(ES6+).
+BUFFALO SPLITTER is a web platform that accepts CSV or JSON files of large sizes, and then breaks them down into smaller chunks or bits. Chunk file also maintains the right format to match the uploaded file format.
 
 <!-- DOCUMENTATION -->
 
 ## Documentation
 
-Here's a link to the [project documentation](https://www.figma.com/file/xmL1cEJbX40djUY5fj4szu/Team-buffalow-team-library?t=yplItsNFlhdyyRPB-6). The project documentation gives an idea on how to make use of the platform to break down those large files into smaller chunks.
+Here's a link to a [project documentation](https://docs.google.com/document/d/1-VlrJLtPonbjeiyFb03OZ-2qa3vj-wyLp5eSqK4umy8/edit?usp=sharing). The project documentation gives more information on the scope of the project.
 
-This documentation also includes the wireframe and moodboard for the project.
+Here's a link to the [documentation](https://www.figma.com/file/xmL1cEJbX40djUY5fj4szu/Team-buffalow-team-library?t=yplItsNFlhdyyRPB-6) prepared by the designiers which also includes the wireframe and moodboard for the project.
 
 <!-- FEATURES -->
 
@@ -57,6 +59,14 @@ As for users that are signed in, these are the features that are accessible to t
 
 You can get started with Chunk File immediately on the Chunk File website.
 
+## Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+- FIGMA
+- HTML
+- CSS
+- JAVASCRIPT
+
 <!-- CONTRIBUTING -->
 
 ## Contributing
@@ -70,6 +80,25 @@ If you find a new feature, that you believe would make this project better, kind
 - Make a PR with a proper description about the new feature, you could attach images for better understanding
 
 <!-- LICENSE -->
+
+## Team Members
+### Designers
+- [@Xarafina](https://github.com/xarafina)
+- [@Phemozil](https://github.com/phemozil)
+- [@VisualJummy](https://github.com/visualjummy)
+- [@Sharon-Awuto](https://github.com/sharon-awuto)
+- [@Shurlar50](https://github.com/shurlar50)
+- [@NmesomaIrene](https://github.com/nmesomairene)
+- [@Jocksycodes](https://github.com/jocksycodes)
+- [@Carpediemstate](https://github.com/carpediemstate)
+- [@Smplybee](https://github.com/smplybee)
+- [@Umiidey](https://github.com/umiidey)
+
+### Frontend Developers
+- [@Daniel-Ezekiel](https://github.com/daniel-ezekiel)
+- [@Nodrot](https://github.com/Nodrot)
+- [@Vickyaayomy](https://github.com/vickyaayomy)
+- [@Code-qkin](https://github.com/code-qkin)
 
 ## License
 
